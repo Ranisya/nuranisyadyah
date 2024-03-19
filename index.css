@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+ /* Gaya CSS */
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #1cc1eb; 
+}
+img {
+    width: 200px;
+    height: auto;
+}
+header {
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+header p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+section {
+    padding: 20px;
+}
+section h2 {
+    font-size: 24px;
+    color: #02060a;
+    margin-top: 20px;
+}
+section h3 {
+    font-size: 20px;
+    color: #02080a;
+    margin-top: 15px;
+}
+section p, section li {
+    font-size: 16px;
+    color: #02080a;
+    margin-bottom: 10px;
+}
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #02080a;
+}
+footer {
+    text-align: center;
+    background-color: #02080a;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer p {
+    font-size: 14px;
+    color: #02080a;
+    margin: 0;
+}
+.portfolio {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.portfolio-info {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    animation-duration: 0.5s;
+}
+@keyframes slideDown {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+@keyframes slideUp {
+    from {
+        transform: scaleY(1);
+    }
+    to {
+        transform: scaleY(0);
+    }
+}
+</style>
